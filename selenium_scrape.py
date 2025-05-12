@@ -23,7 +23,7 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--window-size=1920,1080")
 
 # Path to your chromedriver executable
-chromedriver_path = "C:\\Users\\Robbo\\PycharmProjects\\repository\\selenium\\chromedriver-win64\\chromedriver.exe"  # <-- UPDATE THIS PATH
+chromedriver_path = r"C:\Users\Robbo\PycharmProjects\repository\selenium\chromedriver-win64\chromedriver.exe"  # <-- UPDATE THIS PATH
 service = Service(chromedriver_path)
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
